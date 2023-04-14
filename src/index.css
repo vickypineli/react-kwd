@@ -83,3 +83,44 @@ code {
   color: orangered;
   background-color:rgb(223, 222, 221) ;
 }
+.home h1{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 80px;
+}
+.home h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  font-size: 3rem;
+  color: gray;
+}
+.home a{
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  background-color: orangered;
+  text-decoration: none;
+}
+.home a:hover{
+background-color: gray;
+}
+
+.home strong{
+  color: orangered;
+}
+
+.home .heading{
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(49, 48, 48);
+  margin-bottom: 0px;
+}
+.home p{
+color: gray;
+}
+.page .heading{
+  font-size: 3rem;
+  font-weight: bold;
+}

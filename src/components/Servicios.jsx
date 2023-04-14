@@ -3,7 +3,7 @@ import React from 'react'
 export const Servicios = () => {
   return (
     <div className='page'>
-    <h1>Servicios</h1>
+    <h1 className='heading'>Servicios</h1>
     <section className='serviceSection'>
       <article className='serviceCard'>
         <h2>Diseño Web</h2>
