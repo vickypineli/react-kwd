@@ -1,10 +1,16 @@
+//cambios en react18 en adelante (importamos libreris createRoot)
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import {createRoot} from 'react-dom/client'
 import App from './App'
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+
+//creamos constate donde va a ir alojada toda la aplicacion
+const container = document.getElementById("root");
+//creamos raiz de la aplicacion
+const root = createRoot(container);
+
+
+//Aqui es donde renderizamos la aplicacion
+root.render(<App/>);
+
