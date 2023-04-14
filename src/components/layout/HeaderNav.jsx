@@ -10,20 +10,20 @@ import { NavLink } from 'react-router-dom'
      </div>
      <nav>
             <ul>
-                <li>
-                  <NavLink to='/inicio'>Inicio</NavLink>                  
+            <li>
+                  <NavLink to='/inicio' className={({isActive}) => isActive ? "active" : ""}>Inicio</NavLink>                  
                 </li>
                 <li>
-                  <NavLink to='/portafolio'>portafolio</NavLink>                  
+                  <NavLink to='/portafolio' className={({isActive}) => isActive ? "active" : ""}>portafolio</NavLink>                  
                 </li>
                 <li>
-                  <NavLink to='/servicios'>Servicio</NavLink>                  
+                  <NavLink to='/servicios' className={({isActive}) => isActive ? "active" : ""}>Servicio</NavLink>                  
                 </li>
                 <li>
-                  <NavLink to='/curriculum'>Curriculum</NavLink>                  
+                  <NavLink to='/curriculum' className={({isActive}) => isActive ? "active" : ""}>Curriculum</NavLink>                  
                 </li>
                 <li>
-                  <NavLink to='/contacto'>Contacto</NavLink>                  
+                  <NavLink to='/contacto' className={({isActive}) => isActive ? "active" : ""}>Contacto</NavLink>                  
                 </li>
             </ul>
         </nav>
