@@ -73,11 +73,11 @@ code {
   min-height: 380px;
 }
 .footerSection{
-  min-height: 70;
-  line-height: 30px;
+  min-height: 40;
+  line-height: 7px;
   text-align: center;
   font-size: 0.8rem;
-  margin-top: 2rem ;
+  margin-top: 3rem ;
   padding-top: 2rem;
   border-top:  3px solid gray;
   color: orangered;
@@ -124,3 +124,23 @@ color: gray;
   font-size: 3rem;
   font-weight: bold;
 }
+input, button,
+textarea{
+  font-size: 1rem;
+  display: block;
+  padding: 15px;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  background-color: orangered;
+  text-decoration: none;
+  transition: all 300ms;
+  margin-top: 25px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.home a:hover,
+input, button, textarea{
+  background-color: rgb(226, 218, 218);
+  }
