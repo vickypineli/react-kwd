@@ -3,7 +3,7 @@ import React from 'react'
 export const FooterSection = () => {
   return (
     <footer>
-        Kandula Web Desing &copy; Digital sperience. 
+ Digital speriences  &copy;  Kandula Web Desing 
     </footer>
   )
 }
