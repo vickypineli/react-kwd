@@ -3,21 +3,22 @@ body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
+
 code {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .layout {
-  width: 85%;
-  margin: 0;
+  width: 95%;
+  margin: auto;
 }
+
 .header{
   display: flex;
-  height: 132px;
+  height: 90px;
   justify-content: center;
   align-items: center;
   list-style: none;
@@ -42,7 +43,6 @@ code {
   font-weight: 300;
   text-transform: lowercase;
 }
-
 .header nav{
   flex-grow: 1;
 }
@@ -60,13 +60,25 @@ code {
  margin-left: 0.5rem;
  margin-right: 0.5rem;
 }
-
 .header li a{
   color: rgb(66, 64, 64);
   text-decoration: none;
   transition: all 300ms;
 }
-
 .header a:hover{
   color: orangered;
+}
+.content{
+  min-height: 400px;
+}
+.footerSection{
+  min-height: 70;
+  line-height: 30px;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 2rem ;
+  padding-top: 2rem;
+  border-top:  3px solid gray;
+  color: orangered;
+  background-color:rgb(223, 222, 221) ;
 }
