@@ -1,13 +1,11 @@
-
 import './App.css'
-import { Curriculum } from "./components/Curriculum"
+import { MisRutas } from './routes/MisRutas';
 
 function App() {
   return (
-    <div className="App">
-      <Curriculum></Curriculum>
-      <h1>KANDULA WEB DESING</h1>
-    </div>
+    <>
+      <MisRutas/>
+    </>
   );
 }
 export default App
