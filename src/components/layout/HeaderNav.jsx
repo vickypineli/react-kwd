@@ -6,11 +6,9 @@ import { NavLink } from 'react-router-dom'
     <header className='header'>
     <div className='logo'>
       <span>K</span>
-      <h3>ANDULA WEB DESING</h3> 
+      <h3>KANDULA WEB DESING</h3> 
      </div>
      <nav>
-    
-
             <ul>
                 <li>
                   <NavLink to='/inicio'>Inicio</NavLink>                  

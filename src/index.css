@@ -21,10 +21,28 @@ code {
   justify-content: center;
   align-items: center;
   list-style: none;
+  border-bottom:2px solid orangered ;
+  margin-bottom: 35px;
 }
 .header .logo{
   flex-grow: 2;
+  display: flex;
 }
+.header .logo span{
+  margin-top: -17px;
+  display: block;
+  font-size:6rem;
+  font-weight: bolder;
+  color: orangered;
+}
+.header .logo h3{
+  display: block;
+  flex-basis: 40px;
+  margin-left: 10px;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
 .header nav{
   flex-grow: 1;
 }
