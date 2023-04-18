@@ -7,6 +7,7 @@ import { Curriculum } from '../components/Curriculum';
 import { Contacto } from '../components/Contacto';
 import  HeaderNav  from '../components/layout/HeaderNav';
 import { FooterSection } from '../components/layout/FooterSection'
+import {Proyecto} from '../components/Proyecto';
 
 
 
@@ -24,6 +25,7 @@ export const MisRutas = () => {
           <Route path='/servicios' element={<Servicios/>}/>
           <Route path='/curriculum' element={<Curriculum/>}/>
           <Route path='/contacto' element={<Contacto/>}/>
+          <Route path='/proyecto/:id' element={<Proyecto/>}/>
           <Route path='*' element={
             <div className='page'>
                 <h1 classname='heading'> Error 404</h1>
