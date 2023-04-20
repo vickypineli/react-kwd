@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom'
 import { trabajos } from './data/trabajos';
 
 
-export const Proyect = () => {
+export const Proyecto = () => {
   const [proyecto , setProyecto] = useState({});
   const params = useParams();
 

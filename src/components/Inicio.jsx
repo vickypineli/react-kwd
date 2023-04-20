@@ -1,26 +1,25 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom';
+import { ListadoTrabajos } from './ListadoTrabajos';
 export const Inicio = () => {
   return (
     <div className='home'>
-        <h1> Desarrollamos y te aseguramos <strong>experiencias digitales</strong>  únicas que te haran crecer.</h1>
-        <ul>
-          <li>Captación de clientes en entornos hostiles.</li>
-          <li>Alineación de marketing y ventas</li>
-          <li>Creación de oportunidades de ventas cualificadas</li>
-          <li>CRM & Digital Business Growth</li>
-        </ul>
-        <section className='last-works'>
-          <h3 className='heading'>Algunos de los proyectos</h3>
+      <h1>
+        Lorem <strong>kandula web</strong> amet consectetur <strong>Programador y Desarroyador</strong>. Repellendus aut ratione provident 
+      </h1>
 
-          <p><link to="/contact"></link> ¿Quieres conocerlos?</p>
-          
-          <div className='works'>
+      <h2>
+        Lorem ipsum dolor sit <Link to="/contacto"> Contacta Conmigo</Link>
+      </h2>
 
-          </div>
-      
-        </section>
+      <section className="lasts-works">
+        <h2 className='heading'>Algunos de mi proyectos</h2>
+        <p>Esto son algunos de mis trabajos de desarrolla web.</p>
+
+        <div className="works">
+              <ListadoTrabajos limite="2"/>
+        </div>
+      </section>
     </div>
-
   )
 }
